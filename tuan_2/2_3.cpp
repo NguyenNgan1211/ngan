@@ -3,7 +3,7 @@
 #include <bits/stdc++.h>
 	int giaithua(int n){
 		if (n==1)
-		return 1;
+			return 1;
 		return n*giaithua(n-1);
 	}
 int main(){
